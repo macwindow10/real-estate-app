@@ -3,6 +3,8 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 function HeroSection() {
   return (
@@ -28,6 +30,21 @@ function HeroSection() {
             <h1 className="text-5xl font-bold text-white mb-4">
               Start your journey to find the perfect place to call home
             </h1>
+            <p className="text-xl text-white mb-8">
+              Discover a wide range of rental properties tailored to your needs.
+            </p>
+            <div className="flex justify-center">
+              <Input
+                type="text"
+                value=""
+                placeholder="Search by city, neighborhood, or address"
+                onChange={() => {}}
+                className="w-full max-w-lg rounded-none rounded-l-xl bg-white h-12"
+              />
+              <Button className="bg-secondary-500 hover:bg-secondary-600 text-white rounded-none rounded-r-xl border-none h-12">
+                Search
+              </Button>
+            </div>
           </div>
         </motion.div>
       </div>
