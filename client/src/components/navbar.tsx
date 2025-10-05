@@ -48,7 +48,7 @@ function Navbar() {
           </Link>
           <Link href="/signup">
             <Button
-              variant="outline"
+              variant="secondary"
               className="text-white border-white bg-secondary-600 hover:bg-white hover:text-primary-700 rounded-lg"
             >
               Sign Up
