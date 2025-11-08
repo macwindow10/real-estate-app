@@ -12,7 +12,7 @@ function HeroSection() {
       {/* Background image with transparency */}
       <Image
         src="/landing-splash.jpg"
-        alt="Rentifull Rental Platform"
+        alt="HouseIO Rental Platform"
         fill
         className="object-cover object-center"
         priority

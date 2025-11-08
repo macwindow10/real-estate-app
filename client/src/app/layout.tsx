@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Real Estate App",
-  description: "Real Estate App developed using Nextjs",
+  title: "HouseIO - Tenant & Real Estate Connection Platform",
+  description: "Real Estate & Rental App developed using Nextjs",
 };
 
 export default function RootLayout({
@@ -28,9 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Providers>
-          {children}
-        </Providers>        
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
